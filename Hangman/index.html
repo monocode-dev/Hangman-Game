@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start">
+        <button onclick="startgame()" class="start-btn">START</button>
+    </div>
+    <h1>Hangman Game</h1>
+    <div class="game">
+        <div class="game-grid">
+            <div class="man-container">
+                <img src="assest/root.png" id="root">
+                <img src="assest/rod.png" id="rod">
+                <img src="assest/head.png" id="head">
+                <img src="assest/body.png" id="body">
+                <img src="assest/rightArm.png" id="rightArm">
+                <img src="assest/leftArm.png" id="leftArm">
+                <img src="assest/rightFoot.png" id="rightFoot">
+                <img src="assest/leftFoot.png" id="leftFoot">
+            </div>
+            <div class="keyboard-container">
+                <h2 id="category"></h2>
+                <div id="word"></div>
+                <div id="keyboard">
+                    <button onclick="userChoice('Q', event)">Q</button>
+                    <button onclick="userChoice('W', event)">W</button>
+                    <button onclick="userChoice('E', event)">E</button>
+                    <button onclick="userChoice('R', event)">R</button>
+                    <button onclick="userChoice('T', event)">T</button>
+                    <button onclick="userChoice('Y', event)">Y</button>
+                    <button onclick="userChoice('U', event)">U</button>
+                    <button onclick="userChoice('I', event)">I</button>
+                    <button onclick="userChoice('O', event)">O</button>
+                    <button onclick="userChoice('P', event)">P</button><BR></BR>
+                    <button onclick="userChoice('A', event)">A</button>
+                    <button onclick="userChoice('S', event)">S</button>
+                    <button onclick="userChoice('D', event)">D</button>
+                    <button onclick="userChoice('F', event)">F</button>
+                    <button onclick="userChoice('G', event)">G</button>
+                    <button onclick="userChoice('H', event)">H</button>
+                    <button onclick="userChoice('J', event)">J</button>
+                    <button onclick="userChoice('K', event)">K</button>
+                    <button onclick="userChoice('L', event)">L</button><BR></BR>
+                    <button onclick="userChoice('Z', event)">Z</button>
+                    <button onclick="userChoice('X', event)">X</button>
+                    <button onclick="userChoice('C', event)">C</button>
+                    <button onclick="userChoice('V', event)">V</button>
+                    <button onclick="userChoice('B', event)">B</button>
+                    <button onclick="userChoice('N', event)">N</button>
+                    <button onclick="userChoice('M', event)">M</button>
+                </div>
+            </div>
+        </div>
+        <h2 id="statue"></h2>
+        <button id="replay" onclick="newGame()">&#10227;</button>
+    </div>
+
+    <script src="script .js"></script>
+</body>
+</html>
