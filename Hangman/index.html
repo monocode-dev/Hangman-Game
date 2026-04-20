@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hangman Game</title>
+    <link rel="icon" href="assest/hangmanFavicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="start">
-        <button onclick="startgame()" class="start-btn">START</button>
+        <h1>Hangman Game</h1>
+        <p>HOW MANY TRIES WILL IT TAKE?</p>
+        <button onclick="startgame()" class="start-btn">START THE GAME</button>
     </div>
     <h1>Hangman Game</h1>
     <div class="game">
@@ -60,6 +63,10 @@
         <button id="replay" onclick="newGame()">&#10227;</button>
     </div>
 
+    <footer>
+        <hr>
+        <p>&copy; MonoCode</p>
+    </footer>
     <script src="script .js"></script>
 </body>
 </html>

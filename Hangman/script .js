@@ -9,13 +9,17 @@ const start = document.getElementById("start")
 let tries = 0;
 let score = 0;
 
-const categories = ["FRUIT", "ANIMAL", "JOB", 'LANGUAGE', 'SPORT'];
+const categories = ["FRUIT", "ANIMAL", "JOB", "LANGUAGE", "SPORT", "COUNTRY", "CITY", "COLOR", "HARD_MODE"];
 const words = {
-    FRUIT : ["APPLE", "PINEAPPLE", "COCONUT"],
-    ANIMAL : ["LION", "PIGEON", 'CAT'],
-    JOB : ["CHEF", "PILOT", "DOCTOR"],
-    LANGUAGE : ["ENGLISH", "GERMAN", "JAPANESE"],
-    SPORT : ["FOOTBALL", "BASKETBALL", "SWIMMING"]
+    FRUIT : ["APPLE", "PINEAPPLE", "COCONUT", "STRAWBERRY"],
+    ANIMAL : ["LION", "PIGEON", 'CAT', 'DOG'],
+    JOB : ["CHEF", "PILOT", "DOCTOR", 'ACTOR'],
+    LANGUAGE : ["ENGLISH", "GERMAN", "JAPANESE", 'SPANISH'],
+    SPORT : ["FOOTBALL", "BASKETBALL", "SWIMMING" ,'BOXING'],
+    COUNTRY: ["CANADA", "BRAZIL", "EGYPT", "THAILAND", "NORWAY", "AUSTRALIA"],
+    CITY: ["LONDON", "TOKYO", "PARIS", "BERLIN", "SYDNEY", "NEWYORK"],
+    COLOR: ["ORANGE", "PURPLE", "YELLOW", "TURQUOISE", "MAGENTA", "SILVER"],
+    HARD_MODE: ["RHYTHM", "JAZZ", "CRYPTO", "WHIZZ", "AWKWARD"],
 };
 
 function startgame(){
