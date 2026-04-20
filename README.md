@@ -5,6 +5,6 @@ A simple hangman game.
 -Score system and replayability.
 
 ### Update:
--Added more categories and words.
--More performance optimazation.
+-Added more categories and words.<br>
+-More performance optimazation.<br>
 -More styling.
